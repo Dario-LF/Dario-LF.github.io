@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Fuente moderna -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 🌐 Header -->
+    <header>
+        <nav>
+            <h1>Mi Portafolio</h1>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <button id="dark-mode-toggle" aria-label="Cambiar modo oscuro">🌙</button>
+        </nav>
+    </header>
+
+    <!-- 👤 Sobre mí -->
+    <section id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="assets/images/perfil.jpg" alt="Foto de perfil" />
+            </div>
+            <div class="about-text">
+                <h2>Sobre mí</h2>
+                <p>
+                    Soy estudiante de <strong>Ciencias de la Computación</strong> en la
+                    <strong>Universidad de La Habana</strong>, apasionado por la
+                    <strong>inteligencia artificial</strong>, la
+                    <strong>programación competitiva</strong> y los
+                    <strong>videojuegos</strong>.
+                    Me motiva construir soluciones prácticas y eficientes que combinan innovación con tecnologías
+                    modernas.
+                </p>
+
+                <p>
+                    Tengo experiencia en distintos lenguajes y entornos:
+                </p>
+
+                <ul>
+                    <li>
+                        <strong>C#</strong>: Fue mi primer lenguaje en la universidad,
+                        donde desarrollé mis primeros proyectos utilizando el
+                        framework <strong>.NET</strong>.
+                    </li>
+                    <li>
+                        <strong>C++</strong>: He participado en competencias como <strong>ICPC</strong>
+                        y <strong>Codeforces</strong>, lo que fortaleció mis habilidades de
+                        <em>problem solving</em> y dominio de estructuras de datos complejas.
+                        Además, desarrollé un compilador como proyecto académico en este lenguaje.
+                    </li>
+                    <li>
+                        <strong>Python</strong>: Lenguaje clave en mi trayectoria, especialmente en
+                        proyectos de <strong>inteligencia artificial</strong> (incluyendo mi tesis).
+                        También lo he utilizado para crear aplicaciones y APIs.
+                    </li>
+                    <li>
+                        <strong>Otros lenguajes y herramientas</strong>: He trabajado con
+                        <strong>JavaScript</strong>, <strong>SQL</strong>, y lenguajes funcionales como
+                        <strong>Prolog</strong> y <strong>Haskell</strong>.
+                        Además, tengo experiencia en frameworks web como <strong>Next.js</strong>
+                        y arquitecturas desacopladas como <strong>Clean Architecture</strong>.
+                    </li>
+                </ul>
+
+                <p>
+                    Durante mi formación también completé cursos adicionales en
+                    <strong>estructuras de datos avanzadas</strong>,
+                    <strong>programación competitiva</strong> y
+                    <strong>modelos predictivos</strong>, aplicando técnicas para
+                    predecir resultados en disciplinas deportivas como remo y canotaje
+                    en eventos olímpicos anteriores.
+                </p>
+                <a href="#contact" class="btn-primary">Contáctame</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 💼 Proyectos -->
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/images/proyecto1.jpg" alt="Proyecto 1" />
+                <div class="project-info">
+                    <h3>Voltman</h3>
+                    <p>Aplicación web para gestionar el consumo eléctrico de una empresa, con autenticación y base de
+                        datos.</p>
+                    <div class="project-links">
+                        <!-- <a href="#" target="_blank">🌐 Demo</a> -->
+                        <a href="https://github.com/GlenRios/Voltman/" target="_blank">💻 GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/proyecto2.jpg" alt="Proyecto 2" />
+                <div class="project-info">
+                    <h3>MediCub</h3>
+                    <p>Sistema de diagnóstico médico con IA y recuperación de información biomédica.</p>
+                    <div class="project-links">
+                        <!-- <a href="#" target="_blank">🌐 Demo</a> -->
+                        <a href="https://github.com/ArcanoxXx-01/MediCub" target="_blank">💻 GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/proyecto3.jpg" alt="Proyecto 3" />
+                <div class="project-info">
+                    <h3>Proyecto 3</h3>
+                    <p>App móvil para comercio de cartas Yu-Gi-Oh! con sistema de puntos y marketplace.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">🌐 Demo</a>
+                        <a href="#" target="_blank">💻 GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📬 Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+
+        <div class="contact-container">
+            <!-- Formulario -->
+            <div class="contact-form">
+                <form id="contact-form">
+                    <input type="text" name="from_name" placeholder="Tu nombre" required>
+                    <input type="email" name="reply_to" placeholder="Tu correo" required>
+                    <textarea name="message" placeholder="Escribe tu mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+            <!-- Info personal y redes -->
+            <div class="contact-info">
+                <h3>O si prefieres...</h3>
+                <p>📞 Teléfono: <a href="tel:+5356661327">+53 56661327</a></p>
+                <p>📧 Correo: <a href="mailto:dariocc03@gmail.com">dariocc03@gmail.com</a></p>
+
+                <div class="social-links">
+                    <a href="https://github.com/Dario-LF" target="_blank">🐙 GitHub</a>
+                    <!-- <a href="https://www.linkedin.com/in/TU_USUARIO" target="_blank">💼 LinkedIn</a> -->
+                    <!-- <a href="https://instagram.com/dariol" target="_blank">📷 Instagram</a> -->
+                    <!-- <a href="https://twitter.com/TU_USUARIO" target="_blank">🐦 Twitter</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📌 Footer -->
+    <footer>
+        <p>&copy; 2025 Mi Portafolio | Hecho con ❤️</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

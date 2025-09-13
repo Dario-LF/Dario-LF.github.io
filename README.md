@@ -27,7 +27,7 @@ Portafolio personal que muestra mis habilidades como desarrollador, experiencia 
 
 ## 📁 Estructura del Proyecto
 
-```
+```bash
 portafolio/
 │
 ├── index.html # Página principal
@@ -50,16 +50,16 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo LICENSE para más detal
 
 Las contribuciones son bienvenidas. Si tienes sugerencias para mejorar el portafolio:
 
-   * Haz fork del proyecto.
+- Haz fork del proyecto.
 
-   * Crea una rama para tu feature (git checkout -b feature/AmazingFeature).
+- Crea una rama para tu feature (git checkout -b feature/AmazingFeature).
 
-   * Commit tus cambios (git commit -m 'Add some AmazingFeature').
+- Commit tus cambios (git commit -m 'Add some AmazingFeature').
 
-   * Push a la rama (git push origin feature/AmazingFeature).
+- Push a la rama (git push origin feature/AmazingFeature).
 
-   * Abre un Pull Request.
+- Abre un Pull Request.
 
 ---
 
-### ⭐ ¡Si este proyecto te fue útil, por favor déjale una estrella en GitHub!
+### ⭐ Si este proyecto te fue útil, por favor déjale una estrella en GitHub

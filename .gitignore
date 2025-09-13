@@ -1,0 +1,7 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Node (Para mas adelante)
+node_modules/
+dist/
